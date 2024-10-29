@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #4ea64e;
+  color: rgb(60, 255, 0);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.auth-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.auth-menu a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.search-container {
+  margin: 20px;
+}
+.search-container input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+}
+.search-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
